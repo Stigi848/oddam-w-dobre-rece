@@ -4,6 +4,7 @@ import imgBag from '../assets/assets/Icon-2.svg';
 import imgScope from '../assets/assets/Icon-3.svg';
 import imgReturn from '../assets/assets/Icon-4.svg';
 import img2 from '../assets/assets/Decoration.svg';
+import { Link as ReactLink } from 'react-router-dom';
 
 const FourSteps = () => 
 <div className='FourSteps'>
@@ -30,7 +31,8 @@ lorem ipsum sivis dolor, ipsum sivis, ipsum sivis</div>
 
  <br/>
  <div>
-     <button className= 'btnFourSteps'>ODDAJ RZECZY</button>
+ <ReactLink to="/GiveForm">
+                <button className='btnFourSteps' type="button">Oddaj rzeczy </button> </ReactLink>
  </div>
  </div>
 export default FourSteps;

@@ -1,37 +1,36 @@
 import React from 'react';
 import './scss/main.scss';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 import Nav from './components/Nav';
-import Header from './components/Header';
-import About from './components/About';
-import Fundations from './components/Fundation';
-import Contact from './components/Contact';
-import YellowBar from './components/YellowBar';
-import FourSteps from './components/FourSteps';
+import Home from './components/Home';
+import GiveForm from './components/GiveForm';
+import Log from './components/Log';
+import Registration from './components/Registration'
 
 
 
 class App extends React.Component {
   render() {
     return (
+     
       <Router>
         <div className='app'>
-          <navigation>
+          <header>
             <Nav className='menu' />
-          </navigation>
-          <main>
-            {<Header />}
-            <YellowBar />
-            <FourSteps />
-            {<About />}
-            {<Fundations />}
-            {<Contact />}
-          </main>
+          </header>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route  path='/log' exact component={Log} />
+            <Route path='/registration' component={Registration} />
+            <Route path='/GiveForm' component={GiveForm} />
+            
+          </Switch>
+          
 
         </div>
-      </Router>
+        </Router>
     );
   }
 }

@@ -1,0 +1,141 @@
+{ 
+   "fundations":[ 
+      { 
+          "id": 1,
+         "name":"Fundacjom",
+         "desc":"jakis opis",
+         "items":[ 
+            { "id": 1,
+               "header":"Fundacja Lorem ",
+               "subheader":"to jest subheader",
+               "desc":" Aenean in magna massa. Aliquam aliquam eu dolor in lobortis. Cras cursus ex vel "
+            },
+            { "id": 2,
+               "header":"Fundacja Ipsum",
+               "subheader":"to jest subheader",
+               "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida"
+            },
+            { "id": 3,
+               "header":"Fundacja Sivit",
+               "subheader":"to jest subheader",
+               "desc":"Aliquam eget nisi in sem rutrum varius a quis lectus. "
+            },
+            { "id": 4,
+               "header":"Fundacja Dolor",
+               "subheader":"to jest subheader",
+               "desc":"Pellentesque non venenatis metus. Duis mattis massa vel cursus consequat"
+            },
+            { "id": 5,
+               "header":"Fundacja Alfa",
+               "subheader":"to jest subheader",
+               "desc":"Aliquam eget nisi in sem rutrum varius a quis lectus."
+            },
+            { "id": 6,
+               "header":"Fundacja Pro",
+               "subheader":"to jest subheader",
+               "desc":"Nulla eget lacus a velit lobortis pulvinar. Nulla facilisi. Nam semper justo et placerat aliquam"
+            },
+            { "id": 7,
+               "header":"Fundacja Up",
+               "subheader":"to jest subheader",
+               "desc":"Donec ullamcorper vel est vitae malesuada. "
+            }
+         ]
+      },
+      { 
+          "id": 2,
+         "name":"Ogganizacjom",
+         "desc":"jakis opis stowarzyszeń",
+         "items":[ 
+            { "id": 1,
+               "header":"Organizacja Alfa",
+               "subheader":"to jest subheader",
+               "desc":"Donec ullamcorper vel est vitae malesuada. "
+            },
+            { "id": 2,
+               "header":"Organizacja Beta",
+               "subheader":"to jest subheader",
+               "desc":"Praesent commodo quis enim id luctus. "
+            },
+            { "id": 3,
+               "header":"Organizacja Lorem",
+               "subheader":"to jest subheader",
+               "desc":"to jest desc"
+            },
+            { "id": 4,
+               "header":"Organizacja Tratata",
+               "subheader":"to jest subheader",
+               "desc":"Morbi gravida augue vel dignissim bibendum. Nam at enim ullamcorper sem "
+            },
+            { "id": 5,
+               "header":"Organizacja Dolat",
+               "subheader":"to jest subheader",
+               "desc":"Nullam placerat posuere faucibus. Phasellus eu enim pharetra, tincidunt velit at, finibus justo."
+            },
+            { "id": 6,
+               "header":"Organizacja Ipsum",
+               "subheader":"to jest subheader",
+               "desc":"Praesent commodo quis enim id luctus. "
+            },
+            { "id": 7,
+               "header":"Organizacja Sivit",
+               "subheader":"to jest subheader",
+               "desc":"Aliquam eget nisi in sem rutrum varius a quis lectus. "
+            },
+            { "id": 8,
+               "header":"Organizacja Quis",
+               "subheader":"to jest subheader",
+               "desc":"Praesent commodo quis enim id luctus. Pellentesque molestie sapien quis eros accumsan, quis auctor quam blandit"
+            }
+         ]
+      }, 
+      { 
+        "id": 3,
+       "name":"Zbiurkom",
+       "desc":"jakis opis zbiorek",
+       "items":[
+          { "id": 1,
+         "header":"Zbiórka Quis",
+         "subheader":"to jest subheader",
+         "desc":"Donec ullamcorper vel est vitae malesuada. "
+      },
+      { "id": 2,
+         "header":"Zbiórka Dolor",
+         "subheader":"to jest subheader",
+         "desc":"Praesent commodo quis enim id luctus. "
+      },
+      { "id": 3,
+         "header":"Zbiórka Lorem",
+         "subheader":"to jest subheader",
+         "desc":"to jest desc"
+      },
+      { "id": 4,
+         "header":"Zbiórka Beta",
+         "subheader":"to jest subheader",
+         "desc":"Morbi gravida augue vel dignissim bibendum. Nam at enim ullamcorper sem "
+      },
+      { "id": 5,
+         "header":"Zbiórka Dolat",
+         "subheader":"to jest subheader",
+         "desc":"Nullam placerat posuere faucibus. Phasellus eu enim pharetra, tincidunt velit at, finibus justo."
+      },
+      { "id": 6,
+         "header":"Zbiórka Ipsum",
+         "subheader":"to jest subheader",
+         "desc":"Praesent commodo quis enim id luctus. "
+      },
+      { "id": 7,
+         "header":"Zbiórka Sivit",
+         "subheader":"to jest subheader",
+         "desc":"Aliquam eget nisi in sem rutrum varius a quis lectus. "
+      },
+      { "id": 8,
+         "header":"Zbiórka Alfa",
+         "subheader":"to jest subheader",
+         "desc":"Praesent commodo quis enim id luctus. Pellentesque molestie sapien quis eros accumsan, quis auctor quam blandit"
+      }
+   ]
+}
+     
+   ]
+}

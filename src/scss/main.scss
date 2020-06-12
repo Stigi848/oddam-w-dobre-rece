@@ -1,233 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-div.app {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 200%;
-
-
-}
-
-navigation {
-
-    position: absolute;
-    top: 15vh;
-    right: 10vw;
-
-    // }
-
-    // header {
-    //     width: 100%;
-    //     height: 50vh;
-    //     background-color: grey;
-    // }
-
-    // aside {
-    //     width: 100%;
-    //     height: 50vh;
-    //     background-color: chocolate;
-    // }
-
-    // section {
-    //     width: 100%;
-    //     height: 50vh;
-    //     background-color: red;
-    // }
-
-    // section2 {
-    //     width: 100%;
-    //     height: 50vh;
-    //     background-color: green;
-}
+@import "_reset";
+@import "_header";
+@import "_menu";
+@import "_yellowBar";
+@import "_fourSteps";
+@import "_about";
+@import "_fundation";
+@import "_contact";
+@import "_login-andReg";
+@import "_formGive";
 
 
 
-// Menu
-.topNavigation ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
 
 
-}
-
-li {
-    color: black;
-}
-
-.topNavigation a {
-    list-style: none;
-    text-decoration: none;
-    padding: 28px;
-    color: black;
-    z-index: 1;
-
-}
-
-.topNavigation a:hover {
-    border: 2px solid black;
-}
 
 
-// Header 
-.headerImg {
-    position: absolute;
-    left: -30vh;
-    width: 50vw;
-    height: 500px;
-   
-}
-
-.h1Call {
-    position: absolute;
-    top: 40vh;
-    left: 50vw;
-    text-align: center;
-    
-
-}
-
-.headerDecoration1 {
-    position: absolute;
-    top: 52vh;
-    left: 62vw;
-    text-align: center;
-    z-index: 1;
-}
 
 
-.headerBtn2 {
-    width: 150px;
-    height: 70px;
-    position: absolute;
-    top: 65vh;
-    left: 75vw;
-    text-align: center;
-    background-color: white;
-
-}
-
-.headerBtn1 {
-    width: 150px;
-    height: 70px;
-    position: absolute;
-    top: 65vh;
-    left: 58vw;
-    text-align: center;
-    background-color: white;
-
-}
-
-.yellowBar {
-    position: absolute;
-    top: 85vh;
-    width: 100%;
-    height: 35vh;
-    background-color: #FAD648;
-    display: flex;
-    flex-direction: column-reverse;
-}
 
 
-.yellowText{
-    text-align: center;
-    padding: 5vh;
-}
 
-.FourSteps{
-    position: absolute;
-    top: 120vh;
-    width: 100%;
-    text-align: center;
-}
-.h1FourSteps{
-    padding-top: 10vh;
-}
 
-.forStepsBorder{
-    border-bottom: 1px solid grey;
-}
 
-.greyBar{
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: 100vw;
-    background-color: lightgrey;
-}
 
-.btnFourSteps{
-    width: 20vw;
-    height: 5vw;
-    text-align: center;
-    background-color: white;
-    
-}
 
-.about{
-    position: absolute;
-    top:250vh;
-    left: 0vw;
-    background-color: lightgrey;
-    width: 100vw;
-    height: 82vh;
-    z-index: 0;}
 
-.imgpeople {
-    position: relative;
-    transform: scale(.5);
-    // padding: 5vw;
-    right: 20vw;
-    top:-40vh;
-    overflow: hidden;
-}
-.aboutLeft{
-    position: relative;
-    text-align: center;
-    width:40vw;
-    height: 45vh;
-    padding: 5vw;
-}
-.Fundation{
-    position: relative;
-    top: 350vh;
-    text-align: center;
-    
-}
 
-.btnFundation{
-    border: 2px solid grey ;
-    width: 10vw;
-    height: 5vw;
-    text-align: center;
-    background-color: white;
-    
-}
 
-.imgblanket{
-    position: absolute;
-    top:350vh;
-    left: -35vw;
-    transform: scale(.5);
-    opacity: .5;
-}
-
-.contact{
-    position: relative;
-    top:380vh;
-    left: 50vw;
-    text-align: center;
-}
-
-.form input{
-    display: inline-block;
-    outline-style: none;
-    border-bottom: 2px solid grey;
-}

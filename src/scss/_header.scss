@@ -1,0 +1,50 @@
+// Header 
+.headerImg {
+    position: absolute;
+    left: -30vh;
+    width: 50vw;
+    height: 500px;
+
+}
+
+.h1Call {
+    position: absolute;
+    top: 40vh;
+    left: 49vw;
+    text-align: center;
+
+
+}
+
+.headerDecoration1 {
+    position: absolute;
+    top: 55vh;
+    left: 62vw;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.headerBtn2 {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 65vh;
+    left: 75vw;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.headerBtn1 {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 65vh;
+    left: 58vw;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+
+}

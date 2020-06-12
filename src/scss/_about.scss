@@ -1,0 +1,25 @@
+.about {
+    position: absolute;
+    top: 250vh;
+    left: 0vw;
+    background-color: lightgrey;
+    width: 100vw;
+    height: 82vh;
+    z-index: 0;
+}
+
+.imgpeople {
+    position: absolute;
+    transform: scale(.5);
+    left: 20vw;
+    top: -36vh;
+
+}
+
+.aboutLeft {
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    height: 45vh;
+    padding: 5vw;
+}

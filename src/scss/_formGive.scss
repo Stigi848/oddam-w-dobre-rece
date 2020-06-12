@@ -1,0 +1,83 @@
+
+.GiveForm {
+    position: absolute;
+    top: 0;
+
+}
+
+.GiveFormSweter {
+    position: relative;
+    right: 10vw;
+
+
+}
+
+.GiveForm2ndBar {
+    position: relative;
+    top: 30vh;
+    text-align: center;
+}
+
+.GiveFormSqr {
+    position: relative;
+    display: inline-block;
+    top: 10vw;
+    width: 10vw;
+    height: 10vw;
+    transform: rotate(45deg);
+    margin-right: 2vw;
+    border: grey 2px solid;
+
+}
+
+.GiveFormSqr p {
+    position: relative;
+    top: 8vh;
+    transform: rotate(-45deg);
+}
+
+.GiveFormYellowBar {
+    position: absolute;
+    top: 100vh;
+    height: 20vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+.GiveFormYellowBar h1,
+h2 {
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+.GiveFormFormik {
+    position: relative;
+    top: 50vh;
+}
+
+.GiveFormContact {
+    position: absolute;
+    right: 50vw;
+    top: 20vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.GiveFormFormik {
+    display: flex;
+    padding: 1vw;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1vw;
+    vertical-align: left;
+}
+
+.TeddyBear{
+    position: absolute;
+    top:120vh;
+    right: 0;
+    z-index: -10;
+
+}
