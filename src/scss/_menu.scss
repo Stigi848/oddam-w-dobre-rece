@@ -3,7 +3,7 @@ nav {
     position: absolute;
     top: 15vh;
     right: 10vw;
-
+    z-index: 999
 }
 
 .loginBar {
@@ -67,3 +67,4 @@ li {
 .topNavigation a:hover {
     border: 2px solid black;
 }
+

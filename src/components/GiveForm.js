@@ -4,6 +4,8 @@ import img2 from '../assets/assets/Decoration.svg';
 import imgSweter from '../assets/assets/Form-Hero-Image.jpg';
 import TeddyBear from '../assets/assets/Background-Form.jpg';
 import Contact from './Contact';
+import Nav from './Nav'
+
 
 
 

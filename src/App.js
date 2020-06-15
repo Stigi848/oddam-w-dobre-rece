@@ -7,7 +7,9 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import GiveForm from './components/GiveForm';
 import Log from './components/Log';
-import Registration from './components/Registration'
+import Registration from './components/Registration';
+
+
 
 
 

@@ -1,9 +1,15 @@
 .contact {
     position: absolute;
-    top: 440vh;
+    top: 470vh;
     left: 55vw;
     text-align: center;
 
+}
+.imgblanket {
+    position: absolute;
+    top: 470vh;
+    transform: scale(1.0);
+    opacity: .5;
 }
 
 .contact input {
@@ -24,7 +30,7 @@
 
 .SocialConstact {
     position: absolute;
-    top: 480vh;
+    top: 540vh;
     right: 0;
 
 }

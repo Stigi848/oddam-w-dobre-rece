@@ -1,6 +1,6 @@
 import React from 'react';
 import img2 from '../assets/assets/Decoration.svg';
-import { render } from '@testing-library/react';
+
 
 class Fundations extends React.Component {
   constructor() {
@@ -18,7 +18,7 @@ class Fundations extends React.Component {
 
   handleClick(event) {
     this.setState({
-      currentPage: Number(event.target.id)
+      currentPage: +event.target.id
     });
   }
 
@@ -53,7 +53,7 @@ class Fundations extends React.Component {
     const currentOrg = this.fundation?.items.slice(indexofFirstOrg, indexofLastOrg);
 
     const renderOrg = currentOrg?.map((org, i) => {
-      return <li key={i}>{org.header} <br /> {org.desc} </li>
+      return <li key={i}><h2>{ org.header }</h2> <br />  <h5> {org.desc} </h5> </li>
     });
 
 
@@ -69,6 +69,9 @@ class Fundations extends React.Component {
           key={number}
           id={number}
           onClick={this.handleClick}
+          
+          className={currentPage== number && 'active'}
+         
         >
           {number}
         </li>
